@@ -1,0 +1,97 @@
+.container {
+    background-image: url('../../assets/images/asd.png');
+    background-color: rgba(0, 0, 0, 0.8);
+    background-size: cover;
+    padding-bottom: 80px;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: #00000086;
+    max-width: 790px;
+    margin: auto;
+    padding: 34px;
+    border: 2px solid white;
+    border-top: 0;
+    border-radius: 30px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+}
+
+.text1 {
+    font-size: 50px;
+    color: #FFEC8C;
+    font-weight: 500;
+    background: linear-gradient(172deg, rgba(180, 136, 68, 1) 25%, rgba(249, 236, 169, 1) 50%, rgba(179, 138, 69, 1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text2 {
+    font-size: 30px;
+    color: #FFEC8C;
+    font-weight: 500;
+    margin-bottom: 14px;
+    background: linear-gradient(172deg, rgba(180, 136, 68, 1) 25%, rgba(249, 236, 169, 1) 50%, rgba(179, 138, 69, 1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text3 {
+    font-size: 80px;
+    color: #FFEC8C;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: linear-gradient(172deg, rgba(180, 136, 68, 1) 25%, rgba(249, 236, 169, 1) 50%, rgba(179, 138, 69, 1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text4,
+.text5 {
+    margin: 20px 0;
+    line-height: 24px;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.74), 0px 0px 8px rgba(255, 255, 255, 0.74), 6px 6px 8px rgba(0, 0, 0, 0.5);
+    animation: animat 8s infinite linear;
+}
+
+@keyframes animat {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+.text5 {
+    margin: 0;
+    line-height: 22px;
+    font-size: 22px;
+}
+
+.text6 {
+    font-size: 81px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(172deg, rgba(180, 136, 68, 1) 25%, rgba(249, 236, 169, 1) 50%, rgba(179, 138, 69, 1) 75%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.text7 {
+    line-height: 24px;
+    font-size: 24px;
+    color: #FFFFFF;
+    text-shadow: 0px 0px 8px rgba(255, 255, 255, 0.74), 0px 0px 8px rgba(255, 255, 255, 0.74), 6px 6px 8px rgba(0, 0, 0, 0.5);
+
+}
