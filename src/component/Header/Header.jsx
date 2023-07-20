@@ -7,7 +7,7 @@ const Header = () => {
             <div className={css.wrapper}>
                 <p className={css.text1}>ясновидящая</p>
                 <p className={css.text2}>Лучший специалист магии и эзотерики</p>
-                <p className={css.text3}>ИМЯ</p>
+                <p className={css.text3}>Маргарита</p>
                 <p className={css.text4}>БУДУЩЕЕ. НАСТОЯЩЕЕ. ПРОШЛОЕ</p>
                 <p className={css.text5}>
                     Помогу изменить жизнь к лучшему, <br /> исправить проблемы настоящего!
