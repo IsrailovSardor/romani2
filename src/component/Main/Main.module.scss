@@ -429,3 +429,182 @@
         height: 14px;
     }
 }
+
+.client {
+    background-color: rgb(255, 255, 255);
+    width: 100%;
+
+    .container {
+        width: 100%;
+        max-width: 1200px;
+        padding: 40px 20px 80px;
+        margin: auto;
+        gap: 30px;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .title {
+            font-size: 40px;
+            text-align: center;
+            width: fit-content;
+            position: relative;
+            animation: anims 2s linear infinite alternate;
+
+            @keyframes anims {
+                0% {
+                    transform: scale(1);
+                }
+
+                100% {
+                    transform: scale(1.2);
+                }
+            }
+
+            &::after {
+                position: absolute;
+                content: "";
+                bottom: -1px;
+                left: 50%;
+                width: 0%;
+                height: 2px;
+                background-color: gold;
+                animation: anim 4s ease-in infinite;
+            }
+
+            @keyframes anim {
+                0% {
+                    left: 50%;
+                }
+
+                100% {
+                    width: 100%;
+                    left: 0;
+                }
+            }
+        }
+
+        .mySwiper {
+            border-radius: 10px;
+            height: auto;
+            width: 100%;
+            margin: auto;
+            height: auto;
+            padding: 20px 50px;
+
+
+
+            img {
+                width: 100%;
+                height: auto;
+                object-fit: contain;
+            }
+        }
+    }
+
+    .police {
+        font: 500 19px 'Oswald';
+        color: white;
+        background-color: rgb(0, 0, 0);
+        padding: 5px 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 575.98px) {
+    .client {
+        .police {
+            font: 500 15px 'Oswald';
+            padding: 5px 10px;
+            text-align: center;
+        }
+
+        .container {
+            padding: 40px 20px;
+
+            .title {
+                font-size: 30px;
+            }
+
+            .mySwiper {
+                padding: 20px 0;
+
+                img {
+                    width: 100%;
+                    height: 500px;
+                }
+            }
+        }
+    }
+}
+
+
+
+.warpperGal {
+    max-width: 800px;
+    display: flex;
+    gap: 20px;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 0;
+
+}
+
+.wtr2 {
+    display: flex;
+    gap: 10px;
+    flex-direction: column;
+
+    img {
+        border: 2px solid white;
+        box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.74), 0px 0px 8px rgba(255, 255, 255, 0.74), 6px 6px 8px rgba(0, 0, 0, 0.5);
+        width: 100%;
+        height: 400px;
+        object-fit: cover;
+    }
+}
+
+.video {
+    border: 2px solid white;
+    box-shadow: 0px 0px 8px rgba(255, 255, 255, 0.74), 0px 0px 8px rgba(255, 255, 255, 0.74), 6px 6px 8px rgba(0, 0, 0, 0.5);
+    height: 600px;
+    width: auto;
+    object-fit: cover;
+}
+
+@media (max-width: 575.98px) {
+    .warpperGal {
+        max-width: 100%;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        justify-content: center;
+        padding: 40px 40px;
+    }
+
+    .wtr2 {
+
+        img {
+            width: 100%;
+            height: auto;
+        }
+    }
+
+    .video {
+        height: auto;
+        width: 100%;
+    }
+
+}
+
+.videoasd {
+    position: absolute;
+    top: 50000000%;
+    right: 5000000%;
+}
