@@ -16,8 +16,7 @@ import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
 
-import aa2 from "../../assets/images/bo1.jpg";
-import aaa2 from "../../assets/images/ob.jpg";
+import aa2 from "../../assets/images/190422846_237635978132737_8044115382900864457_n.jpg";
 import a from "../../assets/images/1a.jpg";
 import aa from "../../assets/images/2a.jpg";
 import aaa from "../../assets/images/3a.jpg";
@@ -145,10 +144,7 @@ const Main = () => {
             </div>
             <img src={line2} alt="" className={css.usltextIg} />
             <div className={css.warpperGal}>
-                <div className={css.wtr2}>
-                    <img src={aa2} alt="a" className={css.video} />
-                    <img src={aaa2} alt="a" className={css.video} />
-                </div>
+                <img src={aa2} alt="a" className={css.video} />
                 <video loop controls className={css.video}>
                     <source src={aaaaa3} className={css.video} />
                 </video>
