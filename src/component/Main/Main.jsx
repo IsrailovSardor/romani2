@@ -26,6 +26,9 @@ import aaaaa3 from "../../assets/images/bo2.mp4";
 
 import vi from "../../assets/images/asa (online-audio-converter.com).mp3";
 
+import gg from "../../assets/images/gg.jpg";
+import ggg from "../../assets/images/ggg.jpg";
+
 const arr = [
     {title: "ВСТРЕТИТЬ НАСТОЯЩУЮ ЛЮБОВЬ"},
     {title: "РАСКЛАДЫ НА ТАРО ВСЕ СЛУЧАИ ЖИЗНИ"},
@@ -148,6 +151,10 @@ const Main = () => {
                 <video loop controls className={css.video}>
                     <source src={aaaaa3} className={css.video} />
                 </video>
+            </div>
+            <div className={css.warpperGagl}>
+                <img src={gg} alt="a" className={css.videog} />
+                <img src={ggg} alt="a" className={css.videog} />
             </div>
             <img src={img1} alt="" className={css.line} />
             <>

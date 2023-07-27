@@ -15,6 +15,9 @@ const Header = () => {
                 <a className={css.text6} href="https://api.whatsapp.com/send?phone=79612249798">
                     +7 961 224-97-98
                 </a>
+                <a className={css.text2} href="https://www.instagram.com/tolya_rimma_707/?igshid=MzRlODBiNWFlZA%3D%3D">
+                    INSTAGRAM: tolya_rimma_707
+                </a>
                 <p className={css.text7}>только качественная помощь - без пустых обещаний!</p>
             </div>
         </div>
