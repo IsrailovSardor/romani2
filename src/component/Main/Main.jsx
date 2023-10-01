@@ -148,9 +148,9 @@ const Main = () => {
             <img src={line2} alt="" className={css.usltextIg} />
             <div className={css.warpperGal}>
                 <img src={aa2} alt="a" className={css.video} />
-                <video loop controls className={css.video}>
+                {/* <video loop controls className={css.video}>
                     <source src={aaaaa3} className={css.video} />
-                </video>
+                </video> */}
             </div>
             <div className={css.warpperGagl}>
                 <img src={gg} alt="a" className={css.videog} />
